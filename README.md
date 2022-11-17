@@ -36,4 +36,8 @@ Here is the data from review_id_table, products, customers, and vine_table from 
 ![customers](images/customers.png)
 ![vine_table](images/vine_table.png)
 
+### Checking that the data load was successful in pgAdmin
+![Sql_validation](images/sql_for_validating_data_load.png)
+
+
 Similarly extracted, transformed and loaded the `video_DVD` review data from Amazon S3.
