@@ -18,22 +18,22 @@ Two datasets were selected from Amazon's list of Reviews datasets at https://s3.
 ## AWS-RDS
 Started by creating an AWS-RDS to connect to pgAdmin.
 
-![AWS-RDS](Images/RDS_videodb.png)
+![AWS-RDS](images/RDS_videodb.png)
 
 ## Extracted the data from AWS-S3
-![Extract_data](Images/Extract_Data_fromS3.png)
+![Extract_data](images/Extract_Data_fromS3.png)
 
 ## Transformed the data
-![Transform_data](Images/Transform_data.png)
+![Transform_data](images/Transform_data.png)
 
 ## Loaded the Data
 ### Loaded the data from the dataframes to their respective tables in RDS using postgreSQL.
-![Load_data](Images/Loading_to_RDS.png)
+![Load_data](images/Loading_to_RDS.png)
 
 Here is the data from review_id_table, products, customers, and vine_table from PostgreSQL.
-![review_id_table](Images/review_id_table_postgresql.png)
-![products](Images/products_table.png)
-![customers](Images/customers.png)
-![vine_table](Images/vine_table.png)
+![review_id_table](images/review_id_table_postgresql.png)
+![products](images/products_table.png)
+![customers](images/customers.png)
+![vine_table](images/vine_table.png)
 
 Similarly extracted, transformed and loaded the `video_DVD` review data from Amazon S3.
